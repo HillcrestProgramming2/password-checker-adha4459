@@ -4,6 +4,9 @@ import java.util.Scanner;
 public class PasswordCheckerApp {
     public static void main(String[] args) {
         //prompt user for password
+        //main method goes here
+        //Check strength
+        //Provide user feedback based on the strength
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter a password: ");
         String password = input.nextLine();
@@ -14,9 +17,7 @@ public class PasswordCheckerApp {
         else {
             System.out.println("Password is invalid");
         }
-        //main method goes here
-        //Check strength
-        //Provide user feedback based on the strength
+
     }
     public static boolean passwordCheck(String password)
     {
@@ -93,8 +94,6 @@ public class PasswordCheckerApp {
         else {
             return false;
         }
-
-
 
 
     }
