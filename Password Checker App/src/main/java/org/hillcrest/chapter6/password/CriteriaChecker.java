@@ -15,7 +15,6 @@ public class CriteriaChecker {
 
         if (passwordLength >= 8) {
             counter++;
-
         }
 
         for (int i = 0; i < password.length(); i++)
@@ -57,8 +56,6 @@ public class CriteriaChecker {
             else {
                 continue;
             }
-
-
         }
 
         for (int i = 0; i < password.length(); i++) {
